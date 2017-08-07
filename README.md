@@ -27,9 +27,9 @@ The annotations are provided as "txt" files, in each of them, we label part acti
 
 Use the following scripts to get annotations:
 
-'''
+```
   ./get_annotations.sh
-'''
+```
 ## Testing
 
 ### Models
