@@ -19,6 +19,7 @@ we define 5 kinds of parts: head, torso, lower body, two arms and two hands. For
 |7|head|normal|
 |8|head|speaking|
 |9|head|brushing teeth|
+|-|-|-|
 
 The part action set we have collected is not perfect now, if you find annotation errors or you have good ideas on how to design the set, please feel free to contact me.
 
