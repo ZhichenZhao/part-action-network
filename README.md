@@ -8,18 +8,26 @@ In general, the main purpose of this paper is to capture "part action" cues to i
 ## Part actions
 we define 5 kinds of parts: head, torso, lower body, two arms and two hands. For each of them, we define some actions, such as "head: lokking up", "hand: half holding" etc.
 
-|index|part|action|
-|:--------:|:--------:|:--------:|
-|1|head|breathing|
-|2|head|drinking|
-|3|head|laughing|
-|4|head|looking down|
-|5|head|looking through|
-|6|head|looking up|
-|7|head|normal|
-|8|head|speaking|
-|9|head|brushing teeth|
-|-|-|-|
+|index|part|action|index|part|action|
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+|1|head|breathing|18|lower body|standing|
+|2|head|drinking|19|lower body|walking|
+|3|head|laughing|20|arms|curving down|
+|4|head|looking down|21|arms|curving up|
+|5|head|looking through|22|arms|straight down|
+|6|head|looking up|23|arms|straight up|
+|7|head|normal|24|hands|cutting|
+|8|head|speaking|25|hands|half holding|
+|9|head|brushing teeth|26|hands|fully holding|
+|10|torso|bending|27|hands|merging|
+|11|torso|fading away|28|hands|slack|
+|12|torso|normal|29|hands|printing|
+|13|torso|lying|30|hands|proping|
+|14|lower body|crouching|31|hands|supporting|
+|15|lower body|forking|32|hands|washing|
+|16|lower body|running|33|hands|waving|
+|17|lower body|sitting|34|hands|writing|
+
 
 The part action set we have collected is not perfect now, if you find annotation errors or you have good ideas on how to design the set, please feel free to contact me.
 
