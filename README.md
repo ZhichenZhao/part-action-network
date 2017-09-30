@@ -39,10 +39,12 @@ Use the following scripts to get annotations:
 ```
   ./get_annotations.sh
 ```
+### Models
+you can download the model from my google drive[PAN of Stanford40]https://drive.google.com/file/d/0B9BLbZk6ZRS0eXVfRThUTGdvdEU/view?usp=sharing
+
 ## Testing
 
-### Models
-coming soon
+
 ## Training
 ### Our modified Caffe
 coming soon
