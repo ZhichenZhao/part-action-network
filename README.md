@@ -38,11 +38,16 @@ Download the annotations:
 [Annotations](https://drive.google.com/file/d/0B9BLbZk6ZRS0cVdxbGRPQzJHRGs/view?usp=sharing)
 
 ### Models
-you can download the model from my google drive[PAN of Stanford40](https://drive.google.com/file/d/0B9BLbZk6ZRS0eXVfRThUTGdvdEU/view?usp=sharing)
+you can download the model from my google drive: [PAN of Stanford40](https://drive.google.com/file/d/0B9BLbZk6ZRS0eXVfRThUTGdvdEU/view?usp=sharing)
 
 ## Testing
-
-
+To test the network, you need to follow the steps:
+### 1. download the Stanford-40 dataset in data/stanford40
+### 2. use tools/PersonImage.m to generate bbox images in BBOXImages/(the whole images are stored in JPEGImages/).
+### 3. use tools/Realtime_Multi_Person_Pose_Estimation-mater/testing/demo.m to generate parts in PARTImages/, these programs are modified from the Part Affinity Field Network (see citations).
+### 4. run test_stanford40/test.py
+## demo
+coming soon
 ## Training
 ### Our modified Caffe
 coming soon
