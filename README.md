@@ -3,9 +3,9 @@
 This project descibes the Part Action Network proposed in our paper in ICCV2017: Single Image Action Recognition using Semantic Part Actions, Zhichen Zhao, Huimin Ma and Shaodi You.
 
 In general, the main purpose of this paper is to capture "part action" cues to improve the body action recognition. We view a body action as a combination of several part actions.
-![](https://github.com/ZhichenZhao/part-action-network/tree/master/imgs/framework.png)
+![framework](imgs/framework.png)
 Some part actions are shown as follows:
-![](https://github.com/ZhichenZhao/part-action-network/tree/master/imgs/parts.png)
+![parts](parts.png)
 
 ## Part actions
 we define 5 kinds of parts: head, torso, lower body, two arms and two hands. For each of them, we define some actions, such as "head: lokking up", "hand: half holding" etc.
