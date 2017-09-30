@@ -2,7 +2,7 @@
 project: Part Action Network(PAN)
 name: config.py
 author: Zhichen Zhao
-data: 2017.09
+date: 2017.09
 
 This file describes test augmentations
 '''
