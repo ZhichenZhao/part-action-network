@@ -53,3 +53,15 @@ coming soon
 ## Training
 ### Our modified Caffe
 coming soon
+
+If you find that our paper or this project help, please cite the paper:
+```
+@InProceedings{Zhao_2017_ICCV,
+author = {Zhao, Zhichen and Ma, Huimin and You, Shaodi},
+title = {Single Image Action Recognition Using Semantic Body Part Actions},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {Oct},
+year = {2017}
+```
+}
+
