@@ -62,6 +62,5 @@ title = {Single Image Action Recognition Using Semantic Body Part Actions},
 booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
 month = {Oct},
 year = {2017}
-```
 }
-
+```
