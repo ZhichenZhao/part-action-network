@@ -1,0 +1,20 @@
+net: "your_path/part_action_with_ctx_trainval.prototxt"
+#test_iter: 500
+#test_interval: 1000
+#test_initialization: false
+# no test here
+# lr for fine-tuning should be lower than when starting from scratch
+base_lr: 0.00001
+iter_size: 20
+lr_policy: "step"
+gamma: 0.1
+# stepsize should also be lower, as we're closer to being done
+stepsize: 10000
+display: 20
+max_iter: 30000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 1000
+snapshot_prefix: "your_path/part_action_with_ctx5"
+# uncomment the following to default to CPU mode solving
+#solver_mode: CPU
