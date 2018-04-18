@@ -44,15 +44,23 @@ you can download the model from my google drive: [PAN of Stanford40](https://dri
 
 ## Testing
 To test the network, you need to follow the steps:
-1. download the Stanford-40 dataset in data/stanford40
-2. use tools/PersonImage.m to generate bbox images in BBOXImages/(the whole images are stored in JPEGImages/).
-3. use tools/Realtime_Multi_Person_Pose_Estimation-mater/testing/demo.m to generate parts in PARTImages/, these programs are modified from the Part Affinity Field Network (see citations).
-4. run test_stanford40/test.py
+1. Download the Stanford-40 dataset in data/stanford40
+2. Use tools/PersonImage.m to generate bbox images in BBOXImages/(the whole images are stored in JPEGImages/).
+3. Use tools/Realtime_Multi_Person_Pose_Estimation-mater/testing/demo.m to generate parts in PARTImages/, these programs are modified from the Part Affinity Field Network (see citations).
+4. Run test_stanford40/test.py
 ## demo
 coming soon
 ## Training
+To train the network, you need to use my modified caffe as below at first.
+you can follow the steps to generate your own part action network:
+1. Prepare a ResNet-50 model which is trained on ImageNet
+2. Use training/init_pan_network.py to transform ResNet-50 to a initial PAN, where both part appearance branch and part action branch weights are set.
+3. Generate BBOXImages/, JPEGImages/, PARTImages/ folders, as the same procedure in the test phase.
+4. Run caffe train in modified Caffe just as the training schedule in official Caffe. The corresponding solver.prototxt and trainval.prototxt files are arranged in the training/ folder.
+5. Now you can play with the trained model and use it in other scenarios.
+
 ### Our modified Caffe
-coming soon
+https://github.com/ZhichenZhao/my-modified-caffe/tree/master
 
 If you find that our paper or this project help, please cite the paper:
 ```
