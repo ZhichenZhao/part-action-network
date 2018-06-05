@@ -40,7 +40,7 @@ Download the annotations:
 [Annotations](https://drive.google.com/file/d/0B9BLbZk6ZRS0cVdxbGRPQzJHRGs/view?usp=sharing)
 
 ### Models
-you can download the model from my google drive: [PAN of Stanford40](https://drive.google.com/file/d/0B9BLbZk6ZRS0eXVfRThUTGdvdEU/view?usp=sharing)
+you can download the model from my google drive: [PAN of Stanford40](https://megvii-my.sharepoint.cn/:u:/g/personal/zhaozhichen_megvii_com/Ed5__sfvQ1lEhh34jsV7vO8BfHl2wdhV8bRYcdurMfEcMw?e=bgfT1h)
 
 ## Testing
 To test the network, you need to follow the steps:
