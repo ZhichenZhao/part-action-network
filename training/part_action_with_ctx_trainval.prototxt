@@ -4,9 +4,6 @@ layer {
   type: "PartActionWithCtxData"
   top: "data"
   top: "label"
-  include {
-    phase: TRAIN
-  }
   transform_param {
     mirror: true
     crop_size: 224
