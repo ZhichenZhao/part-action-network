@@ -1,6 +1,6 @@
 # part-action-network
 
-This project descibes the Part Action Network proposed in our paper in ICCV2017: Single Image Action Recognition using Semantic Part Actions, Zhichen Zhao, Huimin Ma and Shaodi You.
+This project descibes the Part Action Network proposed in our paper in ICCV2017: (Single Image Action Recognition using Semantic Part Actions, Zhichen Zhao, Huimin Ma and Shaodi You)[http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhao_Single_Image_Action_ICCV_2017_paper.pdf].
 
 In general, the main purpose of this paper is to capture "part action" cues to improve the body action recognition. We view a body action as a combination of several part actions.
 ![](https://github.com/ZhichenZhao/part-action-network/raw/master/imgs/framework.jpg)
