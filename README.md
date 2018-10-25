@@ -37,10 +37,10 @@ The part action set we have collected is not perfect now, if you find annotation
 The annotations are provided as "txt" files, in each of them, we label part actions in order of head-torso-lower_body-left_arm-right_arm-left_hand-right_hand. Since in any case you need to locate part locations in the test phase by algprithms, we do not provide part locations in the training set, which keeps consistency for the part localization.
 
 Download the annotations:
-[Annotations](https://megvii-my.sharepoint.cn/:u:/g/personal/zhaozhichen_megvii_com/EbEBz2WgJgNJkklr8y01H-EBW1kafZX4YEx9ADm-JohRFQ?e=bi6chZ)
+[Annotations](https://pan.baidu.com/s/1bHBe4ptrWXHeT-tAmhNyuA)
 
 ### Models
-you can download the model from my google drive: [PAN of Stanford40](https://megvii-my.sharepoint.cn/:u:/g/personal/zhaozhichen_megvii_com/Ed5__sfvQ1lEhh34jsV7vO8BfHl2wdhV8bRYcdurMfEcMw?e=bgfT1h)
+you can download the model from my google drive: [PAN of Stanford40](https://pan.baidu.com/s/1FAvByIta9pmfio3m4FtQIg)
 
 ## Testing
 To test the network, you need to follow the steps:
