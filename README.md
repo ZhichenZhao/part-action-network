@@ -37,10 +37,13 @@ The part action set we have collected is not perfect now, if you find annotation
 The annotations are provided as "txt" files, in each of them, we label part actions in order of head-torso-lower_body-left_arm-right_arm-left_hand-right_hand. Since in any case you need to locate part locations in the test phase by algprithms, we do not provide part locations in the training set, which keeps consistency for the part localization.
 
 Download the annotations:
-[Annotations](https://pan.baidu.com/s/1bHBe4ptrWXHeT-tAmhNyuA)
+[Baidu](https://pan.baidu.com/s/1bHBe4ptrWXHeT-tAmhNyuA)
+[Google](https://drive.google.com/open?id=1gTtantVcYIjDzQwfb8PmPNXdjJ_TjHlm)
 
 ### Models
-you can download the model from my google drive: [PAN of Stanford40](https://pan.baidu.com/s/1FAvByIta9pmfio3m4FtQIg)
+you can download the model from my google drive: 
+[Baidu](https://pan.baidu.com/s/1FAvByIta9pmfio3m4FtQIg)
+[Google](https://drive.google.com/open?id=1Sa6IegO73yini5cqaf3oTIv312RHFI78)
 
 ## Testing
 To test the network, you need to follow the steps:
